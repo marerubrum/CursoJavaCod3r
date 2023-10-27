@@ -9,7 +9,7 @@ public class DAOTeste {
 		String sql = "INSERT INTO pessoas (nome) VALUES (?)";
 		System.out.println(dao.incluir(sql, "João da Silva"));
 		System.out.println(dao.incluir(sql, "Ana Julia"));
-		System.out.println(	dao.incluir(sql, "Guilherme Souza"));
+		System.out.println(dao.incluir(sql, "Guilherme Souza"));
 		
 		dao.close();
 	}
